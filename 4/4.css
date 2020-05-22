@@ -1,0 +1,37 @@
+body {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: blueviolet;
+    color:black;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.conatainer{
+
+padding: 20px;
+text-align: center;
+border-radius: 7px;
+background-color: white;
+}
+
+button {
+
+display: block;
+font-size: 20px;
+margin: auto;
+margin-top: 10px;
+
+}
+
+
+input[type=text]{
+
+    padding: 0.5rem;
+    margin: 2rem;
+    font-size: 1rem;
+}

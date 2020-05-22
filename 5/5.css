@@ -1,0 +1,27 @@
+body {
+
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+background: url(hatter.jpg)center/cover no-repeat;
+
+}
+
+.counter {
+
+font-size: 100px;
+    
+}
+
+.btn {
+
+    background: white;
+    border: none;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    margin: 50px;
+}
