@@ -1,0 +1,51 @@
+body {
+    height: auto;
+    width: auto;
+display: flex;
+justify-content: center;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+background-color: azure;
+}
+
+
+.container {
+margin-top: 50px;
+text-align: center;
+padding: 10%;
+border-radius: 20px;
+border: solid black;
+background-color: aliceblue;
+}
+
+#quoteBtn {
+
+border: none;
+color: brown;
+background: black;
+font-size: 20px;
+padding: 20px;
+}
+
+#quoteBtn:hover {
+
+color: rgb(86, 26, 121);
+
+}
+
+
+blockquote {
+
+background: red;
+margin: 1.5rem;
+padding: 0.5rem;
+
+}
+
+
+#quoteAuthor {
+
+
+    color: blueviolet;
+}
