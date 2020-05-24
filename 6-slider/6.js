@@ -9,11 +9,28 @@ nextBtn.addEventListener('click',nextSlide);
 prevBtn.addEventListener('click',prevSlide);
 
 
-function nextBtn () {
+function nextSlide () {
+    if(counter===3){
+
+        counter = -0;
+    }
 
     counter++; 
 
-   container.style.backgroundImage = "url('bcg-2.jpg')";
+   container.style.backgroundImage = `url(bcg-${counter}.jpg`
+
+
+}
+
+
+function prevSlide() {
+    if(counter===0){
+
+        counter = 4;
+    }
+    counter--; 
+
+   container.style.backgroundImage = `url(bcg-${counter}.jpg`
 
 
 }
